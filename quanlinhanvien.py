@@ -94,28 +94,27 @@ class QuanLiNhanVien:
                         print("Thong Tin Nhan Vien Can Cap Nhat: ")
                         print("\t\t\t Ma Nhan Vien | Ho Ten               | Gioi Tinh | Que Quan     | Ngay Sinh     | Ngay Vao Lam     | Bo Phan")
                         nv.HienThi()
-                    
-                    if chon == 1:
-                        HoTen = input("Ho Ten Moi: ")
-                        CapNhat.HoTen(nv, HoTen)
-                    elif chon == 2:
-                        GioiTinh = input("Gioi Tinh Moi: ")
-                        CapNhat.GioiTinh(nv, GioiTinh)
-                    elif chon == 3:
-                        QueQuan = input("Que Quan Moi: ")
-                        CapNhat.QueQuan(nv, QueQuan)
-                    elif chon == 4:
-                        NgayVaoLam = input("Ngay Vao Lam Moi: ")
-                        CapNhat.NgayVaoLam(nv, NgayVaoLam)
-                    elif chon == 5:
-                        NgaySinh = input("Ngay Sinh Moi: ")
-                        CapNhat.NgaySinh(nv, NgaySinh)
-                    elif chon == 6:
-                        TenBP = input("Ten Vi Tri Moi: ")
-                        CapNhat.ViTri(nv, TenBP)
-                    print("Thong Tin Nhan Vien Can Cap Nhat: ")
-                    print("\t\t\t Ma Nhan Vien | Ho Ten               | Gioi Tinh | Que Quan     | Ngay Sinh     | Ngay Vao Lam     | Bo Phan")
-                    nv.HienThi()
+                        if chon == 1:
+                            HoTen = input("Ho Ten Moi: ")
+                            CapNhat.HoTen(nv, HoTen)
+                        elif chon == 2:
+                            GioiTinh = input("Gioi Tinh Moi: ")
+                            CapNhat.GioiTinh(nv, GioiTinh)
+                        elif chon == 3:
+                            QueQuan = input("Que Quan Moi: ")
+                            CapNhat.QueQuan(nv, QueQuan)
+                        elif chon == 4:
+                            NgayVaoLam = input("Ngay Vao Lam Moi: ")
+                            CapNhat.NgayVaoLam(nv, NgayVaoLam)
+                        elif chon == 5:
+                            NgaySinh = input("Ngay Sinh Moi: ")
+                            CapNhat.NgaySinh(nv, NgaySinh)
+                        elif chon == 6:
+                            TenBP = input("Ten Vi Tri Moi: ")
+                            CapNhat.ViTri(nv, TenBP)
+                        print("Thong Tin Nhan Vien Can Cap Nhat: ")
+                        print("\t\t\t Ma Nhan Vien | Ho Ten               | Gioi Tinh | Que Quan     | Ngay Sinh     | Ngay Vao Lam     | Bo Phan")
+                        nv.HienThi()
                 else:
                     print("Vui Long Nhap Lai")
                     

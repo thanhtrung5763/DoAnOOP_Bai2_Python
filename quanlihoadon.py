@@ -16,7 +16,7 @@ class QuanLiHoaDon:
     @staticmethod 
     def HienThiDoanhThu(lhd):
         print("\t\t\t ---------------------------------------------------")
-        print(f"\t\t\t Tong:                                 | {QuanLiHoaDon.TinhTien(lhd), -12}")
+        print(f"\t\t\t Tong:                                 | {QuanLiHoaDon.TinhTien(lhd):<12}")
         print("\t\t\t ---------------------------------------------------")
     @staticmethod
     def DoanhThuThang(t):

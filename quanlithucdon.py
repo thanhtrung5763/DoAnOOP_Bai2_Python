@@ -47,9 +47,9 @@ class QuanLiThucDon:
     @staticmethod
     def ThucDon():
         print("\t\t\t -----------------------------------THUC DON-----------------------------------\n")
-        print("\t\t\t Thuc An")
+        print("\t\t\t | Thuc An |")
         QuanLiThucDon.HienThi(QuanLiThucDon.lThucAn)
-        print("\t\t\t Thuc Uong")
+        print("\t\t\t | Thuc Uong |")
         QuanLiThucDon.HienThi(QuanLiThucDon.lThucUong)
 
 
@@ -221,9 +221,9 @@ class QuanLiThucDon:
                 elif chon == 3:
                     lTU = QuanLiThucDon.SapXep(flag, QuanLiThucDon.lThucUong)
                     if flag == 1:
-                        print("Danh Sach Thuc An Tang Dan Theo Gia: ")
+                        print("Danh Sach Thuc Uong Tang Dan Theo Gia: ")
                     else:
-                        print("Danh Sach Thuc An Giam Dan Theo Gia: ")
+                        print("Danh Sach Thuc Uong Giam Dan Theo Gia: ")
                     QuanLiThucDon.HienThi(lTU)
                 elif chon == 4:
                     exit(0)
