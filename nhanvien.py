@@ -21,7 +21,6 @@ class NhanVien:
         QuanLiNhanVien.lNhanVien.append(self)
 
     def TaoNhanVien(self):
-        NhanVien.ID += 1
         self.MaNV = str(NhanVien.ID)
         self.HoTen = input("Nhap Ho Ten Nhan Vien: ")
         self.GioiTinh = input("Nhap Gioi Tinh: ")
