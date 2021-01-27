@@ -57,9 +57,9 @@ tp4 = [d4, f1, d3, f5]
 tp5 = [d1, d2, f4, f2]
 hd3 = HoaDon("2", tp3, sl3, b3, "05/09/2020", "Sang", 200000)
 hd1 = HoaDon("2", tp1, sl1, b2, "05/01/2021", "Trua", 100000)
-hd2 = HoaDon("3", tp2, sl2, b1, "07/05/2021", "Sang", 500000)
+hd2 = HoaDon("3", tp2, sl2, b1, "07/12/2020", "Sang", 500000)
 
-hd4 = HoaDon("2", tp4, sl4, b4, "11/01/2021", "Trua", 300000)
-hd5 = HoaDon("3", tp5, sl5, b5, "11/01/2021", "Toi", 200000)
+hd4 = HoaDon("2", tp4, sl4, b4, "27/01/2021", "Trua", 300000)
+hd5 = HoaDon("3", tp5, sl5, b5, "27/01/2021", "Toi", 200000)
 QuanLiQuan.MenuQuanLiQuan()
 
